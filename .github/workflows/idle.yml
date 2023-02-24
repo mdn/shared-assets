@@ -10,4 +10,4 @@ jobs:
   mark-as-idle:
     uses: mdn/workflows/.github/workflows/idle.yml@main
     with:
-      target-repo: "TODO - add this repo in 'mdn/REPOSITORY_NAME' format"
+      target-repo: "mdn/shared-assets"
