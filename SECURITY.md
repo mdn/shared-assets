@@ -1,6 +1,6 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
 If you've discovered a security issue, please report it through the form linked
 below, which will create a secure, private ticket.
