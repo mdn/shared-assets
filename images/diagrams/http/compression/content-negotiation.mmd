@@ -1,0 +1,16 @@
+%%{init: { "sequence": { "wrap": true, "width": 130, "noteAlign": "center", "messageAlign": "left" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant N1 as Node
+    participant N2 as Node
+    participant N3 as Node
+    participant Server
+
+    Client-->>N1: Uncompressed
+    Note left of Client: Client sends an uncompressed body.
+    Note over N1,N3: Intermediate nodes send the body with or without compression on a hop-by-hop basis.
+    N1-->>N2: Uncompressed
+    N2->>N3: Compressed
+    N3-->>Server: Uncompressed
+    Note right of Server: The server receives an uncompressed body.

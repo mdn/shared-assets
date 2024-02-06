@@ -1,0 +1,26 @@
+%%{init: { "sequence": { "wrap": true, "width": 175, "noteAlign": "center" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant Node1 as Node
+    participant Node2 as Node
+    participant Server
+
+    Note over Client: Request message
+    Client->>Node1: GET /doc HTTP/1.1
+
+    Note over Node1: Shows support for compression while forwarding message.
+    Node1->>Node2: GET /doc HTTP/1.1<br/>TE: gzip, br
+
+    Note over Node2: Forwards message
+    Node2->>Server: GET /doc HTTP/1.1
+
+    Note over Server: Returns resource in an uncompressed body.
+    Server->>Node2: HTTP/1.1 200 OK
+
+
+    Note over Node2: Compresses body and forwards message.
+    Node2->>Node1: HTTP/1.1 200 OK<br/>Transfer-Encoding: br
+
+    Note over Node1: Uncompresses resource and returns message to Client.
+    Node1->>Client: HTTP/1.1 200 OK

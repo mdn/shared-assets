@@ -1,0 +1,10 @@
+%%{init: { "sequence": { "wrap": true, "width":380, "noteAlign": "center", "messageAlign": "left" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Note over Client: The client signifies its ability to understand two compression algorithms.
+    Client->>Server: GET /doc HTTP/1.1<br/>Accept-Encoding: br, gzip
+    Note over Server: The resource is sent compressed. The Vary header indicates that content negotiation has been used to select the algorithm.
+    Server->>Client: HTTP/1.1 200 OK<br/>Content-Encoding: br<br/>Vary: Accept-Encoding

@@ -1,0 +1,14 @@
+%%{init: { "sequence": { "wrap": true, "width": 175, "noteAlign": "center", "messageAlign": "left" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant Proxy1 as Proxy
+    participant Proxy2 as Proxy
+    participant Server
+
+    Note over Client: Resource requested.
+    Client->>Server:
+    Note over Server: Resource is compressed and returned.
+    Server->>Client:
+    Note over Proxy1,Proxy2: Intermediate nodes do not uncompress the body.
+    Note over Client: Client decompresses the body.
