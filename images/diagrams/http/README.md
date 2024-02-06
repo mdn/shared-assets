@@ -10,7 +10,7 @@ For example, the source `.mmd` file is a sibling of the generated SVG:
 
 ## Converting to SVG
 
-For any `.mmd` file, you may visit <https://www.mermaid`chart.com/> and export as SVG.
+For any `.mmd` file, you may visit <https://www.mermaidchart.com/> and export as SVG.
 Alternatively, see the [CLI](https://github.com/mermaid-js/mermaid-cli) and other tools under <https://github.com/mermaid-js>.
 
 ## Discussions, issues and pull requests
