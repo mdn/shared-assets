@@ -1,0 +1,45 @@
+# Deploying static content to GitHub Pages
+# See https://github.com/actions/starter-workflows/blob/main/pages/static.yml
+name: Deploy static content
+
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # We don't want the whole repo, only select directories:
+      - name: Prepare assets
+        run: |
+          mkdir -p output_dir
+          cp -r audio fonts images misc videos output_dir/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output_dir
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
