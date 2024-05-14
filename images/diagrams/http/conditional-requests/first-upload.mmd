@@ -11,5 +11,3 @@ sequenceDiagram
     Server->>Client 1: HTTP/1.1 201 Created<br/>Last-Modified: date<br/>Etag: "abc"
     Client 2->>Server: PUT /doc HTTP/1.1<br/>If-None-Match: *
     Server->>Client 2: HTTP/1.1 412 Precondition Failed
-    
- 
