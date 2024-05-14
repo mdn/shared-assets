@@ -1,0 +1,11 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Note left of Client: Request with a stale cache. The validators are used a preconditions for the request.
+    Client->>Server: GET /doc HTTP/1.1<br/>If-Modified-Since: date<br/>If-None-Match: "abc"
+    Note right of Server: Resource unchanged. Respond with a 304 so the client can use cached version.
+    Server->>Client: HTTP/1.1 304 Not Modified
