@@ -1,0 +1,15 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Note left of Client: Initial request. The request is not conditional.
+    Client->>Server: GET /doc HTTP/1.1
+    Note right of Server: Resource returned.<br>Validators are set
+    rect rgb(255, 200, 200)
+        Server-xClient: HTTP/1.1 200 OK<br/>Last-Modified: date<br/>Etag: "abc"<br/>Accept-Ranges: bytes
+    end
+    Note over Client,Server: The download fails before the resource is fully transmitted. In this example, 23782 bytes are received by the client when the download is interrupted.
+    

@@ -1,0 +1,11 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Note left of Client: Resuming the download. A range request is sent with a precondition to check the integrity of the resource.
+    Client->>Server: GET /doc HTTP/1.1<br/>Ranges: 23783-<br/>If-Unmodified-Since: date<br/>If-Match: "abc"
+    Note right of Server: The rest of the resource is sent back, starting where the previous request failed.
+    Server->>Client: HTTP/1.1 206 Partial Content<br/>Last-Modified: date<br/>Etag: "abc"<br/>Accept-Ranges: bytes<br/>Content-Range: 23783-56789<br/>

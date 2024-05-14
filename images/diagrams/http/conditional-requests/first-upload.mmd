@@ -1,0 +1,13 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client 1
+    participant Server
+    participant Client 2
+
+    Note over Client 1, Client 2: In this case, an upload should succeed only if no resource exists yet.
+    Client 1->>Server: PUT /doc HTTP/1.1<br/>If-None-Match: *
+    Server->>Client 1: HTTP/1.1 201 Created<br/>Last-Modified: date<br/>Etag: "abc"
+    Client 2->>Server: PUT /doc HTTP/1.1<br/>If-None-Match: *
+    Server->>Client 2: HTTP/1.1 412 Precondition Failed

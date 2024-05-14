@@ -1,0 +1,17 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Note left of Client: The resource the client wants to modify is requested.
+    Client->>Server: GET /doc HTTP/1.1
+    Note right of Server: The resource is returned with validators.
+    Server->>Client: HTTP/1.1 200 OK<br/>Last-Modified: date<br/>Etag: "abc"
+    activate Client
+    Note left of Client: The resource is modified client-side and uploaded.
+    deactivate Client
+    Client->>Server: PUT /doc HTTP/1.1
+    Note right of Server: The resource is updated successfully, the server sends new validators back.
+    Server->>Client: HTTP/1.1 204 No Content<br/>Last-Modified: date-2<br/>Etag: "xyz"

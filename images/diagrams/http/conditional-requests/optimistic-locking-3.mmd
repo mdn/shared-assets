@@ -1,0 +1,33 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client 1
+    participant Server
+    participant Client 2
+
+    Note over Client 1, Client 2: Client 1 and Client 2 request a resource they intend to modify.
+    Client 1->>Server: GET /doc HTTP/1.1
+    Client 2->>Server: GET /doc HTTP/1.1
+    Note over Client 1, Client 2: The resource is returned with the same validators to both clients.
+    
+    Server->>Client 1: HTTP/1.1 200 OK<br/>Last-Modified: date<br/>Etag: "abc"
+    activate Client 1
+    Server->>Client 2: HTTP/1.1 200 OK<br/>Last-Modified: date<br/>Etag: "abc"
+    activate Client 2
+    
+    Note over Client 1: Resource modified client-side.
+    Note over Client 2: Resource modified client-side.
+    
+    Client 1->>Server: PUT /doc HTTP/1.1<br/>If-Match: "abc"<br/>If-Unmodified-Since: date
+    deactivate Client 1
+    
+    Server->>Client 1: HTTP/1.1 204 No Content<br/>Last-Modified: date-2<br/>Etag: "def"
+    
+    rect rgb(217, 241, 233)
+
+    Client 2->>Server: PUT /doc HTTP/1.1<br/>If-Match: "abc"<br/>If-Unmodified-Since: date
+    deactivate Client 2
+
+    Server->>Client 2: HTTP/1.1 412 Precondition Failed
+    end
