@@ -1,0 +1,10 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "left", "messageAlign": "center" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Client->>Server: Sign-in request
+    Server->>Client: Return session ID cookie
+    Client->>Server: Request new page with session ID cookie
+    Server->>Client: Response depends on session validity
