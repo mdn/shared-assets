@@ -1,0 +1,17 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "left", "messageAlign": "center" }} }%%
+
+sequenceDiagram
+    Client->>Server: GET / HTTP/1.1
+    
+    Server->>Client: HTTP/1.1 401 Unauthorized<br/>WWW-Authenticate: Basic realm="staging server"
+    activate Client
+    Client->>Client: Ask user for credentials
+    deactivate Client
+    Client->>Server: GET / HTTP/1.1<br/>Authorization: Basic a6aec62f4c5c1d...
+    activate Server
+    Server->>Server: Check credentials
+    deactivate Server
+    Note over Server: Respond with '200 OK' if credentials are valid.
+    Server-->>Client: HTTP/1.1 200 OK
+    Note over Server: Otherwise, send a '401 Unauthorized'.
+    Server-->>Client: HTTP/1.1 401 Unauthorized

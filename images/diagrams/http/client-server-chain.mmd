@@ -1,0 +1,15 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "left", "messageAlign": "center" }} }%%
+
+
+sequenceDiagram
+    participant Client
+    participant Proxy1 as Proxy
+    participant Proxy2 as Proxy
+    participant Server
+
+    Client->>Proxy1: 
+    Proxy1->>Proxy2: 
+    Proxy2->>Server: 
+    Server->>Proxy2: 
+    Proxy2->>Proxy1: 
+    Proxy1->>Client: 

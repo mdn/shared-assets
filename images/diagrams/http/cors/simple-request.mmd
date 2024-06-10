@@ -1,0 +1,8 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "left", "messageAlign": "center" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Client->>Server: GET /resources/public-data/ HTTP/1.1<br/>Origin: https://foo.example
+    Server->>Client: HTTP/1.1 200 OK<br/>Access-Control-Allow-Origin: *
