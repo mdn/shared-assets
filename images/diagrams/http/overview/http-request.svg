@@ -96,7 +96,7 @@
         <div data-drawio-colors="color: #333333;" style="box-sizing:border-box;font-size:0;text-align:left">
           <div style="display:inline-block;font-size:16px;font-family:monospace;color:#333;line-height:1.2;pointer-events:all;white-space:nowrap">
             <p style="line-height:100%">
-              <font color="#5d837e" style="font-size:16px">HTTP</font>/              <font color="#cd5b92" style="font-size:16px">1.1</font>
+              <font color="#5d837e" style="font-size:16px">HTTP</font>/<font color="#cd5b92" style="font-size:16px">1.1</font>
             </p>
           </div>
         </div>
