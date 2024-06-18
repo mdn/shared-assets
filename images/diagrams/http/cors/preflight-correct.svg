@@ -21,9 +21,7 @@
       <tspan x="125" dy="0">Client</tspan>
     </text>
   </g>
-  <style>
-    <![CDATA[#my-svg,#my-svg svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px}#my-svg .actor{stroke:#dacef3;fill:#ececff}#my-svg text.actor>tspan{fill:#000;stroke:none}#my-svg .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333}#my-svg #arrowhead path{fill:#333;stroke:#333}#my-svg,#my-svg #sequencenumber{fill:#333}#my-svg .messageText{fill:#333;stroke:none}#my-svg .note{stroke:#aa3;fill:#fff5ad}#my-svg .noteText,#my-svg .noteText>tspan{fill:#000;stroke:none}#my-svg :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif}]]>
-  </style>
+  <style><![CDATA[#my-svg,#my-svg svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px}#my-svg .actor{stroke:#dacef3;fill:#ececff}#my-svg text.actor>tspan{fill:#000;stroke:none}#my-svg .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333}#my-svg #arrowhead path{fill:#333;stroke:#333}#my-svg,#my-svg #sequencenumber{fill:#333}#my-svg .messageText{fill:#333;stroke:none}#my-svg .note{stroke:#aa3;fill:#fff5ad}#my-svg .noteText,#my-svg .noteText>tspan{fill:#000;stroke:none}#my-svg :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif}]]></style>
   <defs>
     <symbol id="computer">
       <path d="M1 1v6.5h10V1H1zm9 5.5H2V2h8v4.5zm-5.11 3 .23-.5h1.76l.24.5H4.88zM12 11H0l1-3h1.05l-.66 2h9.22l-.65-2H11l1 3zM9.5 6h-7V2.5h7V6z"/>
@@ -66,25 +64,25 @@
   <text x="370" y="99" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Origin: https://foo.example</text>
   <text x="370" y="118" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Request-Method: POST</text>
   <text x="370" y="137" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Request-Headers: X-PINGOTHER, Content-type</text>
-  <text x="370" y="156" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
+  <text x="370" y="150" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
   <path stroke-width="2" marker-end="url(#arrowhead)" d="M126 177h487" class="messageLine0" style="fill:none"/>
   <text x="373" y="241" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">HTTP/1.1 204 No Content</text>
   <text x="373" y="260" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Allow-Origin: https://foo.example</text>
   <text x="373" y="279" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Allow-Methods: POST, GET, OPTIONS</text>
   <text x="373" y="298" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Request-Headers: X-PINGOTHER, Content-type</text>
   <text x="373" y="317" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Max-Age: 86400</text>
-  <text x="373" y="336" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
+  <text x="373" y="330" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
   <path stroke-width="2" marker-end="url(#arrowhead)" d="M616 355H129" class="messageLine0" style="fill:none"/>
   <text x="370" y="370" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">POST /doc HTTP/1.1</text>
   <text x="370" y="389" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">X-PINGOTHER: pingpong</text>
   <text x="370" y="408" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Content-Type: text/xml; charset=UTF8</text>
   <text x="370" y="427" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Origin: https://foo.example</text>
-  <text x="370" y="446" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
+  <text x="370" y="440" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
   <path stroke-width="2" marker-end="url(#arrowhead)" d="M126 467h487" class="messageLine0" style="fill:none"/>
   <text x="373" y="531" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">HTTP/1.1 200 OK</text>
   <text x="373" y="550" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Access-Control-Allow-Origin: https://foo.example</text>
   <text x="373" y="569" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Vary: Accept-Encoding, Origin</text>
   <text x="373" y="588" alignment-baseline="middle" class="messageText" dominant-baseline="middle" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">Content-Length: 235</text>
-  <text x="373" y="607" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
+  <text x="373" y="601" alignment-baseline="middle" class="messageText" dy="1em" style="font-size:16px;font-weight:400" text-anchor="middle">...</text>
   <path stroke-width="2" marker-end="url(#arrowhead)" d="M616 628H129" class="messageLine0" style="fill:none"/>
 </svg>
