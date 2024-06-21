@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="background-color:#fff" viewBox="-.5 -.5 722 412">
+  <rect width="100%" height="100%" fill="#FFF"/>
+  <g data-cell-id="0">
+    <g data-cell-id="1">
+      <path fill="#FFF" stroke="#000" d="M0 0h720v410H0z" data-cell-id="BVWxzV7hzkqzoWg6aEM--2" pointer-events="all"/>
+      <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" d="M78 390V80" data-cell-id="BVWxzV7hzkqzoWg6aEM--7" pointer-events="stroke"/>
+      <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" d="m642 390-.17-300" data-cell-id="BVWxzV7hzkqzoWg6aEM--8" pointer-events="stroke"/>
+      <g stroke="#000" stroke-miterlimit="10" stroke-width="2" data-cell-id="BVWxzV7hzkqzoWg6aEM--9">
+        <path fill="none" d="M638 210H86.24" pointer-events="stroke"/>
+        <path d="m80.24 210 8-4-2 4 2 4Z" pointer-events="all"/>
+      </g>
+      <g stroke="#000" stroke-miterlimit="10" stroke-width="2" data-cell-id="BVWxzV7hzkqzoWg6aEM--10">
+        <path fill="none" d="M638 370H86.24" pointer-events="stroke"/>
+        <path d="m80.24 370 8-4-2 4 2 4Z" pointer-events="all"/>
+      </g>
+      <g stroke="#000" stroke-miterlimit="10" stroke-width="2" data-cell-id="BVWxzV7hzkqzoWg6aEM--11">
+        <path fill="none" d="M78 290h551.76" pointer-events="stroke"/>
+        <path d="m635.76 290-8 4 2-4-2-4Z" pointer-events="all"/>
+      </g>
+      <g stroke="#000" stroke-miterlimit="10" stroke-width="2" data-cell-id="BVWxzV7hzkqzoWg6aEM--12">
+        <path fill="none" d="M78 130h551.76" pointer-events="stroke"/>
+        <path d="m635.76 130-8 4 2-4-2-4Z" pointer-events="all"/>
+      </g>
+      <g data-cell-id="BVWxzV7hzkqzoWg6aEM--13">
+        <path fill="none" d="M265.25 100h200v30h-200z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:198px;height:1px;padding-top:115px;margin-left:266px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:13px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font face="sans-serif">
+                    Send sign-in request to server
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="365" y="119" font-family="&quot;Helvetica&quot;" font-size="13" text-anchor="middle">Send sign-in request to server</text>
+        </switch>
+      </g>
+      <g data-cell-id="BVWxzV7hzkqzoWg6aEM--14">
+        <path fill="none" d="M245.25 180h240v30h-240z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:238px;height:1px;padding-top:195px;margin-left:246px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:13px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font face="sans-serif">
+                    Send session ID cookie back to browser
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="365" y="199" font-family="&quot;Helvetica&quot;" font-size="13" text-anchor="middle">Send session ID cookie back to browse...</text>
+        </switch>
+      </g>
+      <g data-cell-id="BVWxzV7hzkqzoWg6aEM--15">
+        <path fill="none" d="M220.25 260h290v30h-290z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:288px;height:1px;padding-top:275px;margin-left:221px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:13px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font face="sans-serif">
+                    Request new page along with session ID cookie
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="365" y="279" font-family="&quot;Helvetica&quot;" font-size="13" text-anchor="middle">Request new page along with session ID cooki...</text>
+        </switch>
+      </g>
+      <g data-cell-id="BVWxzV7hzkqzoWg6aEM--16">
+        <path fill="none" d="M220.25 340h290v30h-290z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:288px;height:1px;padding-top:355px;margin-left:221px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:13px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font face="sans-serif">
+                    Response: depends on session validity
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="365" y="359" font-family="&quot;Helvetica&quot;" font-size="13" text-anchor="middle">Response: depends on session validity</text>
+        </switch>
+      </g>
+      <g data-cell-id="BVWxzV7hzkqzoWg6aEM--19">
+        <rect width="120" height="60" x="18" y="30" fill="#FFF" stroke="#000" pointer-events="all" rx="9" ry="9"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:118px;height:1px;padding-top:60px;margin-left:19px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:12px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font face="sans-serif">
+                    Browser
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="78" y="64" font-family="&quot;Helvetica&quot;" font-size="12" text-anchor="middle">Browser</text>
+        </switch>
+      </g>
+      <g data-cell-id="BVWxzV7hzkqzoWg6aEM--20">
+        <rect width="120" height="60" x="582" y="30" fill="#FFF" stroke="#000" pointer-events="all" rx="9" ry="9"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:118px;height:1px;padding-top:60px;margin-left:583px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:12px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <div>
+                    <font face="sans-serif">
+                      Server
+                    </font>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="642" y="64" font-family="&quot;Helvetica&quot;" font-size="12" text-anchor="middle">Server</text>
+        </switch>
+      </g>
+    </g>
+  </g>
+</svg>

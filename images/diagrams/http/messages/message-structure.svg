@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="background-color:#fff" viewBox="-.5 -.5 1100 261">
+  <defs>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500);
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#fff"/>
+  <g data-cell-id="0">
+    <g data-cell-id="1">
+      <g data-cell-id="m8_yUPAIpRcaYaqxqrlA-123">
+        <rect width="480" height="260" fill="#f5f5f5" pointer-events="all" rx="20.8" ry="20.8"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-start;justify-content:unsafe flex-start;width:457px;height:1px;padding-top:15px;margin-left:15px">
+              <div data-drawio-colors="color: #333333;" style="box-sizing:border-box;font-size:0;text-align:left">
+                <div style="display:inline-block;font-size:18px;font-family:&quot;Roboto Mono&quot;;color:#333;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font color="#509ad4">
+                    POST
+                  </font>
+                  /
+                  <font color="#5d837e">
+                    HTTP
+                  </font>
+                  /
+                  <font color="#cd5b92">
+                    1.1
+                  </font>
+                  <br style="font-size:18px"/>
+                  <div>
+                    <font color="#67ab9f">
+                      Host
+                    </font>
+                    : localhost:8000
+                    <br/>
+                    <font color="#67ab9f">
+                      User-Agent
+                    </font>
+                    : curl/8.6.0
+                    <br/>
+                    <font color="#67ab9f">
+                      Accept
+                    </font>
+                    : */*
+                    <br/>
+                    <font color="#67ab9f">
+                      Content-Type
+                    </font>
+                    : application/json
+                    <br/>
+                    <font color="#67ab9f">
+                      Content-Length
+                    </font>
+                    : 345
+                  </div>
+                  <div>
+                    <br/>
+                  </div>
+                  <div>
+                    -123456
+                  </div>
+                  <div>
+                    (more data)
+                    <br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="15" y="33" fill="#333" font-family="&quot;Roboto Mono&quot;" font-size="18">POST / HTTP/1.1...</text>
+        </switch>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-2">
+        <rect width="480" height="260" x="620" fill="#f5f5f5" pointer-events="all" rx="20.8" ry="20.8"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe flex-start;justify-content:unsafe flex-start;width:457px;height:1px;padding-top:15px;margin-left:635px">
+              <div data-drawio-colors="color: #333333;" style="box-sizing:border-box;font-size:0;text-align:left">
+                <div style="display:inline-block;font-size:18px;font-family:&quot;Roboto Mono&quot;;color:#333;line-height:1.2;pointer-events:all;white-space:normal;overflow-wrap:normal">
+                  <font color="#5d837e">
+                    HTTP
+                  </font>
+                  /
+                  <font color="#cd5b92">
+                    1.1
+                  </font>
+                  <font color="#cd5b92">
+                    <font color="#000">
+                      403 Forbidden
+                    </font>
+                    <br/>
+                  </font>
+                  <div>
+                    <font color="#67ab9f">
+                      Server
+                    </font>
+                    : Apache
+                    <br/>
+                    <font color="#67ab9f">
+                      Date
+                    </font>
+                    : Fri, 21 Jun 2024 12:52:39 GMT
+                    <br/>
+                    <font color="#67ab9f">
+                      Accept
+                    </font>
+                    : */*
+                    <br/>
+                    <font color="#67ab9f">
+                      Content-Type
+                    </font>
+                    : text/plain; charset=utf-8
+                    <br/>
+                    <font color="#67ab9f">
+                      Cache-control
+                    </font>
+                    : no-cache
+                  </div>
+                  <div>
+                    <br/>
+                  </div>
+                  <div>
+                    &lt;!DOCTYPE html&gt;
+                    <br/>
+                    &lt;html lang=&quot;en&quot;
+                  </div>
+                  <div>
+                    (more data)
+                    <br/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="635" y="33" fill="#333" font-family="&quot;Roboto Mono&quot;" font-size="18">HTTP/1.1 403 Forbidden...</text>
+        </switch>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-17">
+        <path fill="none" stroke="#000" stroke-miterlimit="10" d="m468.37 25.46 36.63-.2" pointer-events="stroke"/>
+        <path stroke="#000" stroke-miterlimit="10" d="m463.12 25.49 6.98-3.54-1.73 3.51 1.77 3.49Z" pointer-events="all"/>
+      </g>
+      <rect width="450" height="23" x="12" y="14" fill="none" stroke="#000" stroke-dasharray="3 3" data-cell-id="ZFHk91Izi_wxEMk_nnkC-5" pointer-events="all" rx="3.45" ry="3.45"/>
+      <rect width="450" height="19" x="10" y="144" fill="none" stroke="#000" stroke-dasharray="3 3" data-cell-id="ZFHk91Izi_wxEMk_nnkC-6" pointer-events="all" rx="2.85" ry="2.85"/>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-15">
+        <path fill="none" stroke="#000" stroke-miterlimit="10" d="m466.37 203.47 56.45-.29" pointer-events="stroke"/>
+        <path stroke="#000" stroke-miterlimit="10" d="m461.12 203.49 6.98-3.53-1.73 3.51 1.77 3.49Z" pointer-events="all"/>
+      </g>
+      <rect width="450" height="73" x="10" y="167" fill="none" stroke="#000" stroke-dasharray="3 3" data-cell-id="ZFHk91Izi_wxEMk_nnkC-7" pointer-events="all" rx="10.95" ry="10.95"/>
+      <rect width="450" height="73" x="629" y="167" fill="none" stroke="#000" stroke-dasharray="3 3" data-cell-id="ZFHk91Izi_wxEMk_nnkC-9" pointer-events="all" rx="10.95" ry="10.95"/>
+      <rect width="450" height="19" x="629" y="144" fill="none" stroke="#000" stroke-dasharray="3 3" data-cell-id="ZFHk91Izi_wxEMk_nnkC-10" pointer-events="all" rx="2.85" ry="2.85"/>
+      <rect width="450" height="23" x="631" y="14" fill="none" stroke="#000" stroke-dasharray="3 3" data-cell-id="ZFHk91Izi_wxEMk_nnkC-11" pointer-events="all" rx="3.45" ry="3.45"/>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-12">
+        <path fill="none" d="M505 10h90v30h-90z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:1px;height:1px;padding-top:25px;margin-left:550px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:16px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:nowrap">
+                  <font face="sans-serif">
+                    Start line
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="550" y="30" font-family="&quot;Helvetica&quot;" font-size="16" text-anchor="middle">Start line</text>
+        </switch>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-13">
+        <path fill="none" d="M500 138h100v30H500z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:1px;height:1px;padding-top:153px;margin-left:550px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:16px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:nowrap">
+                  <font face="sans-serif">
+                    Empty line
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="550" y="158" font-family="&quot;Helvetica&quot;" font-size="16" text-anchor="middle">Empty line</text>
+        </switch>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-14">
+        <path fill="none" d="M520 188h60v30h-60z" pointer-events="all"/>
+        <switch transform="translate(-.5 -.5)">
+          <foreignObject width="100%" height="100%" pointer-events="none" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow:visible;text-align:left">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;align-items:unsafe center;justify-content:unsafe center;width:1px;height:1px;padding-top:203px;margin-left:550px">
+              <div data-drawio-colors="color: rgb(0, 0, 0);" style="box-sizing:border-box;font-size:0;text-align:center">
+                <div style="display:inline-block;font-size:16px;font-family:&quot;Helvetica&quot;;color:#000;line-height:1.2;pointer-events:all;white-space:nowrap">
+                  <font face="sans-serif">
+                    Body
+                  </font>
+                </div>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="550" y="208" font-family="&quot;Helvetica&quot;" font-size="16" text-anchor="middle">Body</text>
+        </switch>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-16">
+        <path fill="none" stroke="#000" stroke-miterlimit="10" d="m466.37 153.46 33.63-.18" pointer-events="stroke"/>
+        <path stroke="#000" stroke-miterlimit="10" d="m461.12 153.49 6.98-3.54-1.73 3.51 1.77 3.49Z" pointer-events="all"/>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-18">
+        <path fill="none" stroke="#000" stroke-miterlimit="10" d="m624.63 25.5-27.47.01" pointer-events="stroke"/>
+        <path stroke="#000" stroke-miterlimit="10" d="m629.88 25.5-7 3.5 1.75-3.5-1.75-3.5Z" pointer-events="all"/>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-19">
+        <path fill="none" stroke="#000" stroke-miterlimit="10" d="m622.63 153.43-22.63-.25" pointer-events="stroke"/>
+        <path stroke="#000" stroke-miterlimit="10" d="m627.88 153.49-7.04 3.42 1.79-3.48-1.71-3.52Z" pointer-events="all"/>
+      </g>
+      <g data-cell-id="ZFHk91Izi_wxEMk_nnkC-20">
+        <path fill="none" stroke="#000" stroke-miterlimit="10" d="m622.63 203.51-42.33.03" pointer-events="stroke"/>
+        <path stroke="#000" stroke-miterlimit="10" d="m627.88 203.5-7 3.51 1.75-3.5-1.75-3.5Z" pointer-events="all"/>
+      </g>
+    </g>
+  </g>
+</svg>
