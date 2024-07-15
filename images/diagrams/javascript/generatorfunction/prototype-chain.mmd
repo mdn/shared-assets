@@ -44,11 +44,11 @@ class `Object.prototype` {
   valueOf()
 }
 class `Iterator.prototype` {
-  \[@@iterator]()
+  \[Symbol.iterator]()
 }
 class `GeneratorFunction.prototype.prototype` {
   <<Generator.prototype>>
-  [@@toStringTag] = "Generator"
+  [Symbol.toStringTag] = "Generator"
   next()
   return()
   throw()
@@ -59,13 +59,13 @@ class genFunc["function* genFunc() {}"] {
   name = "genFunc"
 }
 class `Function.prototype` {
-  \[@@hasInstance]()
+  \[Symbol.hasInstance]()
   apply()
   bind()
   call()
 }
 class `GeneratorFunction.prototype` {
-  [@@toStringTag] = "GeneratorFunction"
+  [Symbol.toStringTag] = "GeneratorFunction"
 }
 class GeneratorFunction {
   length = 1
