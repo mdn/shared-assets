@@ -44,11 +44,11 @@ class `Object.prototype` {
   valueOf()
 }
 class `AsyncIterator.prototype` {
-  \[@@asyncIterator]()
+  \[Symbol.asyncIterator]()
 }
 class `AsyncGeneratorFunction.prototype.prototype` {
   <<AsyncGenerator.prototype>>
-  [@@toStringTag] = "AsyncGenerator"
+  [Symbol.toStringTag] = "AsyncGenerator"
   next()
   return()
   throw()
@@ -59,13 +59,13 @@ class genFunc["function* genFunc() {}"] {
   name = "genFunc"
 }
 class `Function.prototype` {
-  \[@@hasInstance]()
+  \[Symbol.hasInstance]()
   apply()
   bind()
   call()
 }
 class `AsyncGeneratorFunction.prototype` {
-  [@@toStringTag] = "AsyncGeneratorFunction"
+  [Symbol.toStringTag] = "AsyncGeneratorFunction"
 }
 class AsyncGeneratorFunction {
   length = 1
