@@ -1,6 +1,8 @@
 # MDN shared assets
 
-This repository contains shared media assets for MDN Web Docs including source files where available.
+This repository contains shared media assets for MDN Web Docs, including source files where available.
+
+The assets are hosted at https://mdn.github.io/shared-assets/, so use the `mdn.github.io` URLs in MDN content.
 
 <!--
 
