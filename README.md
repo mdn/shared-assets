@@ -35,3 +35,7 @@ If you have any questions, please reach out to us on our [communication channels
 ## License
 
 This project is licensed under the [LICENSE](LICENSE.md).
+
+### Attributions
+
+- The font `fonts/font_with_slant_axis.woff2` was created by https://github.com/arrowtype and is used under the OFL license.
