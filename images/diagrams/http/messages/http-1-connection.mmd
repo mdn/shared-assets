@@ -1,0 +1,20 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+ sequenceDiagram
+    participant Client
+    participant Server
+
+    rect rgba(0, 0, 255, .05)
+    Client->>Server: Request
+    Note right of Server: Establish connection
+    Server->>   Client: Response
+    Note left of Client: Close connection
+    end
+
+    rect rgba(0, 0, 255, .1)
+    Client->>Server: Request
+
+    Note right of Server: Establish connection
+    Server->>   Client: Response
+    Note left of Client: Close connection
+    end
