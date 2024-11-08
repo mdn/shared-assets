@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" scale="1" border="0" version="24.8.3">
+<mxfile host="Electron" scale="1" border="0" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="676" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,16 +64,16 @@
         <mxCell id="urXJzweC5eLhULexqn9Z-16" value="&lt;i&gt;&lt;font face=&quot;sans-serif&quot;&gt;Unlayered&lt;br&gt;&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;fillColor=#647687;strokeColor=#314354;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="200" y="505" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="urXJzweC5eLhULexqn9Z-17" value="&lt;font face=&quot;sans-serif&quot;&gt;User declarations&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
+        <mxCell id="urXJzweC5eLhULexqn9Z-17" value="&lt;font face=&quot;sans-serif&quot;&gt;Normal u&lt;/font&gt;&lt;span style=&quot;font-family: sans-serif; background-color: initial;&quot;&gt;ser declarations&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="724" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="urXJzweC5eLhULexqn9Z-18" value="&lt;font face=&quot;sans-serif&quot;&gt;User agent declarations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
+        <mxCell id="urXJzweC5eLhULexqn9Z-18" value="&lt;font face=&quot;sans-serif&quot;&gt;Normal user agent declarations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="774" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xQSERh4WUOrSDZgWRBxG-2" value="&lt;font face=&quot;sans-serif&quot;&gt;Important author declarations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="170" width="380" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="xQSERh4WUOrSDZgWRBxG-3" value="&lt;font face=&quot;sans-serif&quot;&gt;Author declarations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
+        <mxCell id="xQSERh4WUOrSDZgWRBxG-3" value="&lt;font face=&quot;sans-serif&quot;&gt;Normal author declarations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontFamily=Monospace;labelBackgroundColor=none;spacing=4;spacingLeft=0;spacingTop=0;arcSize=0;fontSize=16;fontStyle=0;shadow=0;shadowOffsetX=2;shadowOffsetY=2;shadowBlur=1;strokeWidth=1;perimeterSpacing=0;" parent="1" vertex="1">
           <mxGeometry x="201" y="466" width="380" height="40" as="geometry" />
         </mxCell>
       </root>
