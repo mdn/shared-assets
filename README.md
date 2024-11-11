@@ -16,7 +16,7 @@ If you are working on MDN documentation, you can refer to images in markdown lik
 ![Diagram of a preflight request](https://mdn.github.io/shared-assets/images/diagrams/http/cors/preflight-correct.svg)
 ```
 
-If you want to use images in code samples, you can refer to them like this for fonts, for example:
+If you want to use assets in code samples, you can refer to them like this for fonts, for example:
 
 ```css
 @font-face {
