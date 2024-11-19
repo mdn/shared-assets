@@ -6,10 +6,7 @@
 - [Finding an issue](#finding-an-issue)
 - [Asking for help](#asking-for-help)
 - [Pull request process](#pull-request-process)
-- [Setting up the development environment](#setting-up-the-development-environment)
   - [Forking and cloning the project](#forking-and-cloning-the-project)
-  - [Prerequisites](#prerequisites)
-- [Signing commits](#signing-commits)
 
 Welcome 👋 Thank you for your interest in contributing to MDN Web Docs. We are happy to have you join us! 💖
 
@@ -25,8 +22,6 @@ If anything doesn't make sense or work as expected, please open an issue and let
 ## Ways to contribute
 
 We welcome many different types of contributions including:
-
-<!-- TODO: These are not set in stone and should be reconsidered per project based on needs. -->
 
 - New features and content suggestions.
 - Identifying and filing issues.
@@ -50,68 +45,13 @@ Also, mention the community team using the `@mdn/mdn-community-engagement` handl
 
 ## Asking for help
 
-The best way to reach us with a question when contributing is to use the following channels in the following order of precedence:
-
-- [Start a discussion](https://github.com/orgs/mdn/discussions)
-- Ask your question or highlight your discussion on [Matrix](https://matrix.to/#/#mdn:mozilla.org).
-- File an issue and tag the community team using the `@mdn/mdn-community-engagement` handle.
+The best way to contact us with a question when contributing is to reach out to us in [one of our communication channels](https://developer.mozilla.org/en-US/docs/MDN/Community/Communication_channels).
 
 ## Pull request process
 
 The MDN Web Docs project has a well-defined pull request process which is documented in the [Pull request guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community/Pull_requests).
 Make sure you read and understand this process before you start working on a pull request.
 
-## Setting up the development environment
-
-<!-- TODO -->
-
 ### Forking and cloning the project
 
 The first step in setting up your development environment is to [fork the repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) the repository to your local machine.
-
-<!--
-
-TODO
-
-### Prerequisites
-
-A section here that describes the steps needed to prepare a local machine before building.
-It should look like this:
-
-To get started, make sure you have the following:
-
-- [NVM](https://github.com/nvm-sh/nvm) or [NVM for Windows](https://github.com/coreybutler/nvm-windows)
-- [Nodejs](https://nodejs.org/en/) (Latest stable release or up to two versions back)
-
-### Building the project
-
-Add a section here that describes the steps needed to build this project.
-It should follow the same structure as the following example:
-
-Once you have the above installed and have the repository cloned, it is time to install the project dependencies.
-
-```bash
-npm i
-```
-
-With the dependencies installed you can start the project with the following command:
-
-```bash
-npm start
-```
-
-Open `http://localhost:3000` in your browser.
-
-To run the test suite, use the following command:
-
-```bash
-npm test
-```
-
--->
-
-## Signing commits
-
-We require all commits to be signed to verify the author's identity.
-GitHub has a detailed guide on [setting up signed commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
-If you get stuck, please [ask for help](#asking-for-help).

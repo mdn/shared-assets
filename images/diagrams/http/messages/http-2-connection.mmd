@@ -1,0 +1,26 @@
+%%{init: { "sequence": { "wrap": true, "width":250, "noteAlign": "center", "messageAlign": "center" }} }%%
+
+sequenceDiagram
+    participant Client
+    participant Server
+
+    rect rgba(0, 0, 200, .05)
+    Note left of Server: Establish TCP connection
+
+    rect rgba(0, 0, 255, .1)
+    Client-->>Server: Stream 5 - (GET /script.js)
+    Server-->>Client: Stream 5 - (200, sending script)
+    end
+
+    rect rgba(0, 0, 255, .1)
+    Client-->>Server: Stream 7: (GET /styles.css)
+    Server-->>Client: Stream 7: (200, sending styles.css)
+    end
+
+    rect rgba(0, 0, 255, .1)
+    Client-->>Server: Stream 9: (GET /logo.png)
+    Server-->>Client: etc.
+    end
+
+    Note over Client: Close connection when we're done
+    end
