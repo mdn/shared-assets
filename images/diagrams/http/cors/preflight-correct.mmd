@@ -1,12 +1,14 @@
+%%{init: { "sequence": { "mirrorActors":false  }} }%%
+
 sequenceDiagram
-    participant Client
-    participant Server
+    participant Client as Client<br><br>Origin#58; https#58;//foo.example
+    participant Server as Server<br><br>URL#58; https#58;//bar.other
 
-    Client->>Server: OPTIONS /doc HTTP/1.1<br/>Origin: https://foo.example<br/>Access-Control-Request-Method: POST<br/>Access-Control-Request-Headers: X-PINGOTHER, Content-type<br/>...
+    Client->>Server: OPTIONS /doc HTTP/1.1<br/>Origin: https://foo.example<br/>Access-Control-Request-Method: POST<br/>Access-Control-Request-Headers: X-PINGOTHER, Content-type<br/>...<br/>
     Note left of Client: Preflight request
-    Server->>Client: HTTP/1.1 204 No Content<br/>Access-Control-Allow-Origin: https://foo.example<br/>Access-Control-Allow-Methods: POST, GET, OPTIONS<br/>Access-Control-Allow-Headers: X-PINGOTHER, Content-type<br/>Access-Control-Max-Age: 86400<br/>...
+    Server->>Client: HTTP/1.1 204 No Content<br/>Access-Control-Allow-Origin: https://foo.example<br/>Access-Control-Allow-Methods: POST, GET, OPTIONS<br/>Access-Control-Allow-Headers: X-PINGOTHER, Content-type<br/>Access-Control-Max-Age: 86400<br/>...<br/>
 
 
-    Client->>Server: POST /doc HTTP/1.1<br/>X-PINGOTHER: pingpong<br/>Content-Type: text/xml#59; charset=UTF8<br/>Origin: https://foo.example<br/>...
+    Client->>Server: POST /doc HTTP/1.1<br/>X-PINGOTHER: pingpong<br/>Content-Type: text/xml#59; charset=UTF8<br/>Origin: https://foo.example<br/>...<br/>
     Note left of Client: Main request
-    Server->>Client: HTTP/1.1 200 OK<br/>Access-Control-Allow-Origin: https://foo.example<br/>Vary: Accept-Encoding, Origin<br/>Content-Length: 235<br/>...
+    Server->>Client: HTTP/1.1 200 OK<br/>Access-Control-Allow-Origin: https://foo.example<br/>Vary: Accept-Encoding, Origin<br/>Content-Length: 235<br/>...<br/>
