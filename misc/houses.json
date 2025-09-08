@@ -1,0 +1,518 @@
+[
+  {
+    "house_number": "1",
+    "street": "Tavistock Road",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 15,
+      "bedroom3": 10,
+      "bedroom4": 13,
+      "bathroom1": 12,
+      "bathroom2": 8,
+      "kitchen": 14,
+      "lounge": 18,
+      "other1": 12,
+      "other2": 8
+    },
+    "price": 360000
+  },
+  {
+    "house_number": "12",
+    "street": "Tavistock Road",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 14,
+      "bedroom2": 12,
+      "bedroom3": 18,
+      "bedroom4": 9,
+      "bathroom1": 8,
+      "bathroom2": 11,
+      "kitchen": 15,
+      "lounge": 20,
+      "other1": 10,
+      "other2": 13
+    },
+    "price": 480000
+  },
+  {
+    "house_number": "27",
+    "street": "Tavistock Road",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 10,
+      "bedroom2": 15,
+      "bedroom3": 17,
+      "bathroom1": 9,
+      "kitchen": 14,
+      "lounge": 19,
+      "other1": 8
+    },
+    "price": 370000
+  },
+  {
+    "house_number": "33",
+    "street": "Tavistock Road",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 11,
+      "bedroom2": 13,
+      "bathroom1": 8,
+      "bathroom2": 7,
+      "kitchen": 16,
+      "lounge": 18,
+      "other1": 9,
+      "other2": 12
+    },
+    "price": 300000
+  },
+  {
+    "house_number": "41",
+    "street": "Tavistock Road",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 10,
+      "bedroom3": 15,
+      "bedroom4": 9,
+      "bedroom5": 14,
+      "bathroom1": 7,
+      "bathroom2": 9,
+      "kitchen": 18,
+      "lounge": 20,
+      "other1": 11,
+      "other2": 10,
+      "other3": 13
+    },
+    "price": 640000
+  },
+  {
+    "house_number": "56",
+    "street": "Tavistock Road",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 14,
+      "bathroom1": 8,
+      "kitchen": 12,
+      "lounge": 16,
+      "other1": 7
+    },
+    "price": 230000
+  },
+  {
+    "house_number": "67",
+    "street": "Tavistock Road",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 13,
+      "bedroom2": 15,
+      "bedroom3": 10,
+      "bathroom1": 9,
+      "bathroom2": 7,
+      "kitchen": 14,
+      "lounge": 19,
+      "other1": 12,
+      "other2": 10
+    },
+    "price": 420000
+  },
+  {
+    "house_number": "78",
+    "street": "Tavistock Road",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 14,
+      "bedroom3": 11,
+      "bedroom4": 13,
+      "bathroom1": 10,
+      "kitchen": 17,
+      "lounge": 18,
+      "other1": 7
+    },
+    "price": 500000
+  },
+  {
+    "house_number": "85",
+    "street": "Tavistock Road",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 16,
+      "bedroom2": 12,
+      "bathroom1": 9,
+      "kitchen": 13,
+      "lounge": 15,
+      "other1": 10
+    },
+    "price": 290000
+  },
+  {
+    "house_number": "94",
+    "street": "Tavistock Road",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 10,
+      "bedroom2": 11,
+      "bedroom3": 15,
+      "bedroom4": 9,
+      "bedroom5": 14,
+      "bathroom1": 7,
+      "bathroom2": 8,
+      "kitchen": 16,
+      "lounge": 20,
+      "other1": 12,
+      "other2": 13
+    },
+    "price": 710000
+  },
+  {
+    "house_number": "7",
+    "street": "Maple Avenue",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 11,
+      "bedroom2": 13,
+      "bedroom3": 15,
+      "bathroom1": 9,
+      "kitchen": 16,
+      "lounge": 18,
+      "other1": 10
+    },
+    "price": 350000
+  },
+  {
+    "house_number": "15",
+    "street": "Maple Avenue",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 14,
+      "bathroom1": 8,
+      "bathroom2": 9,
+      "kitchen": 15,
+      "lounge": 18,
+      "other1": 10
+    },
+    "price": 310000
+  },
+  {
+    "house_number": "22",
+    "street": "Maple Avenue",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 13,
+      "bedroom2": 14,
+      "bedroom3": 10,
+      "bedroom4": 15,
+      "bedroom5": 12,
+      "bathroom1": 7,
+      "bathroom2": 9,
+      "kitchen": 17,
+      "lounge": 20,
+      "other1": 10,
+      "other2": 12
+    },
+    "price": 650000
+  },
+  {
+    "house_number": "39",
+    "street": "Maple Avenue",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 13,
+      "bathroom1": 8,
+      "kitchen": 12,
+      "lounge": 16,
+      "other1": 7
+    },
+    "price": 210000
+  },
+  {
+    "house_number": "46",
+    "street": "Maple Avenue",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 10,
+      "bedroom2": 12,
+      "bedroom3": 14,
+      "bedroom4": 13,
+      "bathroom1": 9,
+      "kitchen": 15,
+      "lounge": 18,
+      "other1": 8,
+      "other2": 12
+    },
+    "price": 470000
+  },
+  {
+    "house_number": "53",
+    "street": "Maple Avenue",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 11,
+      "bedroom2": 13,
+      "bathroom1": 9,
+      "kitchen": 14,
+      "lounge": 16,
+      "other1": 7,
+      "other2": 10
+    },
+    "price": 270000
+  },
+  {
+    "house_number": "62",
+    "street": "Maple Avenue",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 13,
+      "bedroom3": 15,
+      "bedroom4": 14,
+      "bedroom5": 10,
+      "bathroom1": 7,
+      "bathroom2": 8,
+      "kitchen": 16,
+      "lounge": 20,
+      "other1": 10,
+      "other2": 11,
+      "other3": 9
+    },
+    "price": 780000
+  },
+  {
+    "house_number": "71",
+    "street": "Maple Avenue",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 10,
+      "bedroom2": 12,
+      "bedroom3": 13,
+      "bathroom1": 9,
+      "kitchen": 14,
+      "lounge": 17,
+      "other1": 8,
+      "other2": 11
+    },
+    "price": 340000
+  },
+  {
+    "house_number": "86",
+    "street": "Maple Avenue",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 15,
+      "bedroom2": 12,
+      "bathroom1": 7,
+      "bathroom2": 8,
+      "kitchen": 13,
+      "lounge": 18,
+      "other1": 9
+    },
+    "price": 320000
+  },
+  {
+    "house_number": "95",
+    "street": "Maple Avenue",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 14,
+      "bedroom3": 11,
+      "bedroom4": 13,
+      "bathroom1": 9,
+      "kitchen": 17,
+      "lounge": 19,
+      "other1": 8
+    },
+    "price": 460000
+  },
+  {
+    "house_number": "6",
+    "street": "Willow Lane",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 14,
+      "bedroom2": 12,
+      "bedroom3": 15,
+      "bathroom1": 9,
+      "bathroom2": 8,
+      "kitchen": 16,
+      "lounge": 18,
+      "other1": 11
+    },
+    "price": 400000
+  },
+  {
+    "house_number": "19",
+    "street": "Willow Lane",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 13,
+      "bathroom1": 8,
+      "kitchen": 12,
+      "lounge": 15,
+      "other1": 7
+    },
+    "price": 200000
+  },
+  {
+    "house_number": "24",
+    "street": "Willow Lane",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 11,
+      "bedroom2": 14,
+      "bedroom3": 10,
+      "bedroom4": 12,
+      "bedroom5": 15,
+      "bathroom1": 7,
+      "bathroom2": 9,
+      "kitchen": 16,
+      "lounge": 20,
+      "other1": 12,
+      "other2": 13
+    },
+    "price": 700000
+  },
+  {
+    "house_number": "38",
+    "street": "Willow Lane",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 10,
+      "bedroom2": 14,
+      "bathroom1": 9,
+      "kitchen": 15,
+      "lounge": 17,
+      "other1": 8,
+      "other2": 10
+    },
+    "price": 280000
+  },
+  {
+    "house_number": "44",
+    "street": "Willow Lane",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 12,
+      "bedroom2": 13,
+      "bedroom3": 15,
+      "bedroom4": 10,
+      "bathroom1": 8,
+      "bathroom2": 7,
+      "kitchen": 17,
+      "lounge": 19,
+      "other1": 10
+    },
+    "price": 490000
+  },
+  {
+    "house_number": "59",
+    "street": "Willow Lane",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 14,
+      "bedroom2": 12,
+      "bedroom3": 15,
+      "bathroom1": 9,
+      "kitchen": 15,
+      "lounge": 18,
+      "other1": 11
+    },
+    "price": 360000
+  },
+  {
+    "house_number": "66",
+    "street": "Willow Lane",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 13,
+      "bedroom2": 14,
+      "bathroom1": 9,
+      "bathroom2": 7,
+      "kitchen": 15,
+      "lounge": 18,
+      "other1": 8
+    },
+    "price": 310000
+  },
+  {
+    "house_number": "79",
+    "street": "Willow Lane",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "room_sizes": {
+      "bedroom1": 10,
+      "bedroom2": 12,
+      "bedroom3": 15,
+      "bedroom4": 13,
+      "bedroom5": 11,
+      "bathroom1": 8,
+      "bathroom2": 7,
+      "kitchen": 16,
+      "lounge": 20,
+      "other1": 12,
+      "other2": 13
+    },
+    "price": 730000
+  },
+  {
+    "house_number": "87",
+    "street": "Willow Lane",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 14,
+      "bedroom2": 12,
+      "bedroom3": 13,
+      "bedroom4": 11,
+      "bathroom1": 9,
+      "kitchen": 15,
+      "lounge": 18,
+      "other1": 10,
+      "other2": 12
+    },
+    "price": 510000
+  },
+  {
+    "house_number": "98",
+    "street": "Willow Lane",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "room_sizes": {
+      "bedroom1": 15,
+      "bathroom1": 8,
+      "kitchen": 12,
+      "lounge": 16,
+      "other1": 7
+    },
+    "price": 220000
+  }
+]
