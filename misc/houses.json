@@ -2,7 +2,6 @@
   {
     "house_number": "1",
     "street": "Tavistock Road",
-    "rented": true,
     "bedrooms": 4,
     "bathrooms": 2,
     "room_sizes": {
@@ -22,7 +21,6 @@
   {
     "house_number": "12",
     "street": "Tavistock Road",
-    "rented": true,
     "bedrooms": 4,
     "bathrooms": 2,
     "room_sizes": {
@@ -42,7 +40,6 @@
   {
     "house_number": "27",
     "street": "Tavistock Road",
-    "rented": false,
     "bedrooms": 3,
     "bathrooms": 1,
     "room_sizes": {
@@ -59,7 +56,6 @@
   {
     "house_number": "33",
     "street": "Tavistock Road",
-    "rented": true,
     "bedrooms": 2,
     "bathrooms": 2,
     "room_sizes": {
@@ -77,7 +73,6 @@
   {
     "house_number": "41",
     "street": "Tavistock Road",
-    "rented": false,
     "bedrooms": 5,
     "bathrooms": 2,
     "room_sizes": {
@@ -99,7 +94,6 @@
   {
     "house_number": "56",
     "street": "Tavistock Road",
-    "rented": true,
     "bedrooms": 1,
     "bathrooms": 1,
     "room_sizes": {
@@ -114,7 +108,6 @@
   {
     "house_number": "67",
     "street": "Tavistock Road",
-    "rented": false,
     "bedrooms": 3,
     "bathrooms": 2,
     "room_sizes": {
@@ -133,7 +126,6 @@
   {
     "house_number": "78",
     "street": "Tavistock Road",
-    "rented": true,
     "bedrooms": 4,
     "bathrooms": 1,
     "room_sizes": {
@@ -151,7 +143,6 @@
   {
     "house_number": "85",
     "street": "Tavistock Road",
-    "rented": false,
     "bedrooms": 2,
     "bathrooms": 1,
     "room_sizes": {
@@ -167,7 +158,6 @@
   {
     "house_number": "94",
     "street": "Tavistock Road",
-    "rented": true,
     "bedrooms": 5,
     "bathrooms": 2,
     "room_sizes": {
@@ -188,7 +178,6 @@
   {
     "house_number": "7",
     "street": "Maple Avenue",
-    "rented": false,
     "bedrooms": 3,
     "bathrooms": 1,
     "room_sizes": {
@@ -205,7 +194,6 @@
   {
     "house_number": "15",
     "street": "Maple Avenue",
-    "rented": true,
     "bedrooms": 2,
     "bathrooms": 2,
     "room_sizes": {
@@ -222,7 +210,6 @@
   {
     "house_number": "22",
     "street": "Maple Avenue",
-    "rented": true,
     "bedrooms": 5,
     "bathrooms": 2,
     "room_sizes": {
@@ -243,7 +230,6 @@
   {
     "house_number": "39",
     "street": "Maple Avenue",
-    "rented": false,
     "bedrooms": 1,
     "bathrooms": 1,
     "room_sizes": {
@@ -258,7 +244,6 @@
   {
     "house_number": "46",
     "street": "Maple Avenue",
-    "rented": true,
     "bedrooms": 4,
     "bathrooms": 1,
     "room_sizes": {
@@ -277,7 +262,6 @@
   {
     "house_number": "53",
     "street": "Maple Avenue",
-    "rented": false,
     "bedrooms": 2,
     "bathrooms": 1,
     "room_sizes": {
@@ -294,7 +278,6 @@
   {
     "house_number": "62",
     "street": "Maple Avenue",
-    "rented": true,
     "bedrooms": 5,
     "bathrooms": 2,
     "room_sizes": {
@@ -316,7 +299,6 @@
   {
     "house_number": "71",
     "street": "Maple Avenue",
-    "rented": false,
     "bedrooms": 3,
     "bathrooms": 1,
     "room_sizes": {
@@ -334,7 +316,6 @@
   {
     "house_number": "86",
     "street": "Maple Avenue",
-    "rented": true,
     "bedrooms": 2,
     "bathrooms": 2,
     "room_sizes": {
@@ -351,7 +332,6 @@
   {
     "house_number": "95",
     "street": "Maple Avenue",
-    "rented": false,
     "bedrooms": 4,
     "bathrooms": 1,
     "room_sizes": {
@@ -369,7 +349,6 @@
   {
     "house_number": "6",
     "street": "Willow Lane",
-    "rented": true,
     "bedrooms": 3,
     "bathrooms": 2,
     "room_sizes": {
@@ -387,7 +366,6 @@
   {
     "house_number": "19",
     "street": "Willow Lane",
-    "rented": false,
     "bedrooms": 1,
     "bathrooms": 1,
     "room_sizes": {
@@ -402,7 +380,6 @@
   {
     "house_number": "24",
     "street": "Willow Lane",
-    "rented": true,
     "bedrooms": 5,
     "bathrooms": 2,
     "room_sizes": {
@@ -423,7 +400,6 @@
   {
     "house_number": "38",
     "street": "Willow Lane",
-    "rented": false,
     "bedrooms": 2,
     "bathrooms": 1,
     "room_sizes": {
@@ -440,7 +416,6 @@
   {
     "house_number": "44",
     "street": "Willow Lane",
-    "rented": true,
     "bedrooms": 4,
     "bathrooms": 2,
     "room_sizes": {
@@ -459,7 +434,6 @@
   {
     "house_number": "59",
     "street": "Willow Lane",
-    "rented": false,
     "bedrooms": 3,
     "bathrooms": 1,
     "room_sizes": {
@@ -476,7 +450,6 @@
   {
     "house_number": "66",
     "street": "Willow Lane",
-    "rented": true,
     "bedrooms": 2,
     "bathrooms": 2,
     "room_sizes": {
@@ -493,7 +466,6 @@
   {
     "house_number": "79",
     "street": "Willow Lane",
-    "rented": false,
     "bedrooms": 5,
     "bathrooms": 2,
     "room_sizes": {
@@ -514,7 +486,6 @@
   {
     "house_number": "87",
     "street": "Willow Lane",
-    "rented": true,
     "bedrooms": 4,
     "bathrooms": 1,
     "room_sizes": {
@@ -533,7 +504,6 @@
   {
     "house_number": "98",
     "street": "Willow Lane",
-    "rented": false,
     "bedrooms": 1,
     "bathrooms": 1,
     "room_sizes": {
