@@ -38,7 +38,7 @@ jobs:
           cp -r audio fonts images misc videos output_dir/
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: output_dir
 
