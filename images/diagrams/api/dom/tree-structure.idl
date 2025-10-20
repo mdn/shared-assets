@@ -1,0 +1,14 @@
+graph TB
+  A["#document"]
+  A --> B@{ label: "&lt;!doctype html&gt;" }
+  A --> C["html"]
+  C --> D["head"]
+  D --> E["meta[charset='utf-8']"]
+  D --> F["meta[name='viewport'][content='width=device-width, initial-scale=1.0']"]
+  D --> G["title"]
+  C --> H["body"]
+  H --> I["h1"]
+  H --> J["p"]
+  G --> K["'Document'"]
+  I --> L["'Hello, world!'"]
+  J --> M["'This is a paragraph.'"]
