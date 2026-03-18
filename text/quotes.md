@@ -18,7 +18,7 @@ _Through the Looking-Glass, Lewis Carroll_
 
 > Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.
 
-_Article 26: Universal declaration of human rights_
+_Article 26 of the Universal Declaration of Human Rights_
 
 > For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much—the wheel, New York, wars and so on—whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man—for precisely the same reasons.
 
