@@ -14,7 +14,7 @@ _Carl Sagan, Cosmos_
 
 > If I had a world of my own, everything would be nonsense. Nothing would be what it is, because everything would be what it isn't. And contrary wise, what is, it wouldn't be. And what it wouldn't be, it would. You see?
 
-_Through the looking glass, Lewis Carroll_
+_Through the Looking-Glass, Lewis Carroll_
 
 > Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.
 
