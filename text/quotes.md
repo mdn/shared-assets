@@ -22,7 +22,7 @@ _Article 26 of the Universal Declaration of Human Rights_
 
 > For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much—the wheel, New York, wars and so on—whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man—for precisely the same reasons.
 
-_Hitchhiker’s guide to the galaxy, Douglas Adams_
+_The Hitchhiker’s Guide to the Galaxy, Douglas Adams_
 
 > We now know the basic rules governing the universe, together with the gravitational interrelationships of its gross components, as shown in the theory of relativity worked out between 1905 and 1916. We also know the basic rules governing the subatomic particles and their interrelationships, since these are very neatly described by the quantum theory worked out between 1900 and 1930. What's more, we have found that the galaxies and clusters of galaxies are the basic units of the physical universe, as discovered between 1920 and 1930.
 
