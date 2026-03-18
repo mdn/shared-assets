@@ -2,7 +2,7 @@
 
 Here are some quotes you can use if you need example text.
 
-Citations are not needed, however they have been included in case they would like to be used.
+Citations are not needed; however, they have been included here in case they need to be used.
 
 > Be yourself; everyone else is already taken.
 
